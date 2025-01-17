@@ -1,5 +1,5 @@
 const App = () => {
-  let x = 0;
+  //let x = 0;
   const btnClick = () => {
     console.log("clicked");
     x++;
