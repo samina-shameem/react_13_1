@@ -3,7 +3,8 @@ const App = () => {
   const btnClick = () => {
     console.log("clicked");
     x++;
-  };
+    console.log(x);
+  }
 
   return (
     <div>
