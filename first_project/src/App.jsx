@@ -21,7 +21,7 @@ const App = () => {
       >
         Click me
       </button>
-      <FirstComponent/>
+      <FirstComponent data={x}/>
     </div>
   );
 };
