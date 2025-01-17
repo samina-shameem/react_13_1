@@ -1,8 +1,12 @@
+import { useState } from "react";
+
 const App = () => {
   //let x = 0;
+
+  const [x,setx]=useState(0);
   const btnClick = () => {
     console.log("clicked");
-    x++;
+    setx(x+1);
     console.log(x);
   }
 
