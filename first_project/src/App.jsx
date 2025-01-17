@@ -13,7 +13,7 @@ const App = () => {
 
   return (
     <div>
-      {x}
+      
       <button
         onClick={() => {
           btnClick();
