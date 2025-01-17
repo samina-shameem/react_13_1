@@ -1,18 +1,22 @@
-
-
 const App = () => {
-  let x="samina";
-  let array=["use1","use2","use3","use4"];
+  let x = 0;
+  const btnClick = () => {
+    console.log("clicked");
+    x++;
+  };
+
   return (
     <div>
-      {
-        x
-      }
-      {
-        array.map((user)=>{return})
-      }
+      {x}
+      <button
+        onClick={() => {
+          btnClick();
+        }}
+      >
+        Click me
+      </button>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
