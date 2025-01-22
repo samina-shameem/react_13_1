@@ -2,7 +2,11 @@
 import './CSS/Todo.css'
 const Todo = () => {
   return (
-    <div>
+    <div className='todo'>
+        <div className='todo-header'></div>
+        <div className='todo-add'>
+            <input type='text'/>
+        </div>
       
     </div>
   )
