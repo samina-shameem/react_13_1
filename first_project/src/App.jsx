@@ -1,6 +1,8 @@
 //import { useRef, useState } from "react";
 //import FirstComponent from "./components/FirstComponent";
 
+import Todo from "./components/Todo";
+
 const App = () => {
   //let x = 0;
 
@@ -14,7 +16,9 @@ const App = () => {
        <button onClick={()=>{setData([...data,inputRef.current.value])}}>Submit</button>
        {data.map((item,index)=>{return <h2 key={index}>{item}</h2>})}
     </div>*/
-    <div></div>
+    <div>
+      <Todo/>
+    </div>
   )
 }
 
