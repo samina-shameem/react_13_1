@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+//import { useRef, useState } from "react";
 //import FirstComponent from "./components/FirstComponent";
 
 const App = () => {
@@ -9,11 +9,11 @@ const App = () => {
   
 
   return (
-    <div>
+    /*<div>
        <input ref={inputRef} type="text"/>
        <button onClick={()=>{setData([...data,inputRef.current.value])}}>Submit</button>
        {data.map((item,index)=>{return <h2 key={index}>{item}</h2>})}
-    </div>
+    </div>*/
   )
 }
 
