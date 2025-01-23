@@ -1,12 +1,20 @@
 //import React from 'react'
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import "./CSS/Todo.css";
+
+let count=0;
+
 const Todo = () => {
     const[todos,setTodos]=useState([]);
     const inputRef=useRef(null);
     const add=() =>{
-     setTodos([...todos,{}])
+     setTodos([...todos,{no:count++,text:inputRef.current.value,display:""}]);//increase by one by one
+     inputRef.current.value="";
     }
+
+     useEffect(()=>{
+      console.log(todos);
+     }),[todos]//using useeffect todos updating
 
   return (
     <div className="todo">
