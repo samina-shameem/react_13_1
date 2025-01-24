@@ -12,8 +12,11 @@ const Todo = () => {
      setTodos([...todos,{no:count++,text:inputRef.current.value,display:""}]);//increase by one by one
      inputRef.current.value="";
     }
-
     
+    useEffect(()=>{
+      setTodos(JSON.parse(localStorage.getItem("todos")));
+    })
+
 
      useEffect(()=>{
       console.log(todos);
