@@ -13,8 +13,11 @@ const Todo = () => {
      inputRef.current.value="";
     }
 
+    
+
      useEffect(()=>{
       console.log(todos);
+      localStorage.setItem("todos",JSON.stringify(todos))
      }),[todos]//using useeffect todos updating
 
   return (
