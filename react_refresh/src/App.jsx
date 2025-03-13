@@ -3,12 +3,24 @@
 //import viteLogo from '/vite.svg'
 //import './App.css'
 
-function App() {
-  
-  return (
-    <h1>Welcome to React</h1>
-    
-  )
+import { Component } from "react";
+
+//function App() {
+//  
+//  return (
+//    <h1>Hello React</h1>
+//    
+//  )
+//}
+
+class App extends Component{
+  //to show content on the screen
+  render(){
+
+    return(
+    <h1>Hello world</h1>
+  );
+  }
 }
 
 export default App;
