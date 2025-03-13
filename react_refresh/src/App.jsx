@@ -5,22 +5,30 @@
 
 import { Component } from "react";
 
-//function App() {
-//  
-//  return (
-//    <h1>Hello React</h1>
-//    
-//  )
+{/*function components*/}
+
+ function App() {
+   
+   return (
+     //<h1>Hello React</h1>
+     <section>
+      <h1>Hello my name is Samina</h1>
+      <p>Content :)</p>
+     </section>
+     
+   )
+ }
+
+{/*class components */}
+
+//class App extends Component{
+//  //to show content on the screen
+//  render(){
+//
+//    return(
+//    <h1>Hello world</h1>
+//  );
+//  }
 //}
-
-class App extends Component{
-  //to show content on the screen
-  render(){
-
-    return(
-    <h1>Hello world</h1>
-  );
-  }
-}
 
 export default App;
