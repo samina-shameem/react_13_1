@@ -8,3 +8,12 @@ createRoot(document.getElementById('root')).render(
     <App />
   </StrictMode>,
 )
+
+//const el=document.getElementById("root")
+//
+//const root=ReactDOM.createRoot(el);
+//root.render(
+//  <StrictMode>
+//    <App />
+//  </StrictMode>
+//);
