@@ -10,13 +10,18 @@ import { Component } from "react";
  function App() {
    
    return (
-     //<h1>Hello React</h1>
+    <>
+     {/*<h1>Hello React</h1>
      <section>
       <h1>Hello my name is Samina</h1>
       <p>Content :)</p>
-     </section>
-     
-   )
+     </section>*/}
+     <form>
+      <input type="text" placeholder="Enter your name"/>
+      </form>
+      <p>welcome to the react world</p>
+      </>
+   );
  }
 
 {/*class components */}
