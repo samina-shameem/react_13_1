@@ -3,6 +3,7 @@
 //import viteLogo from '/vite.svg'
 //import './App.css'
 import Add from "./components/Add";
+import Greetings from "./components/Greetings";
 
 import { Component } from "react";
 
@@ -23,7 +24,11 @@ import { Component } from "react";
       </form>
       <p>welcome to the react world</p>*/}
 
-      <Add/>
+      {/*<Add/>*/}
+      <section>
+        <Add/>
+        <Greetings/>
+      </section>
       </>
       
    );
