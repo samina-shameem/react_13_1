@@ -30,10 +30,12 @@ import { Component } from "react";
         <Add/>
         <Greetings/>
       </section>*/}
-      <Fragment>
+      {/*<Fragment>
       <Add/>
       <Greetings/>
-      </Fragment>
+      </Fragment>*/}
+      <Add/>
+      <Greetings/>
       </>
       
    );
