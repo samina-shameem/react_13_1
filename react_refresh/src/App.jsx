@@ -4,6 +4,7 @@
 //import './App.css'
 import Add from "./components/Add";
 import Greetings from "./components/Greetings";
+import { Fragment } from "react";
 
 import { Component } from "react";
 
@@ -25,10 +26,14 @@ import { Component } from "react";
       <p>welcome to the react world</p>*/}
 
       {/*<Add/>*/}
-      <section>
+      {/*<section>
         <Add/>
         <Greetings/>
-      </section>
+      </section>*/}
+      <Fragment>
+      <Add/>
+      <Greetings/>
+      </Fragment>
       </>
       
    );
